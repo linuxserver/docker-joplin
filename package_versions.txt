@@ -534,7 +534,7 @@ jaraco-collections                                                            5.
 jaraco-context                                                                5.3.0                                      python                      
 jaraco-functools                                                              4.0.1                                      python                      
 jaraco-text                                                                   3.12.1                                     python                      
-joplin                                                                        3.3.13                                     deb                         
+joplin                                                                        3.4.10                                     deb                         
 jq                                                                            1.7.1                                      binary                      
 jq                                                                            1.7.1-6+deb13u1                            deb                         
 k8s.io/api                                                                    v0.26.2                                    go-module                   
@@ -908,7 +908,7 @@ libxinerama1                                                                  2:
 libxkbcommon-x11-0                                                            1.7.0-2                                    deb                         
 libxkbcommon0                                                                 1.7.0-2                                    deb                         
 libxkbfile1                                                                   1:1.1.0-1+b4                               deb                         
-libxml2                                                                       2.12.7+dfsg+really2.9.14-2.1               deb                         
+libxml2                                                                       2.12.7+dfsg+really2.9.14-2.1+deb13u1       deb                         
 libxmu6                                                                       2:1.1.3-3+b4                               deb                         
 libxmuu1                                                                      2:1.1.3-3+b4                               deb                         
 libxpm4                                                                       1:3.5.17-1+b3                              deb                         
@@ -1031,7 +1031,7 @@ tesseract.js-core                                                             5.
 tomli                                                                         2.0.1                                      python                      
 typeguard                                                                     4.3.0                                      python                      
 typing-extensions                                                             4.12.2                                     python                      
-typing-extensions                                                             4.14.1                                     python                      
+typing-extensions                                                             4.15.0                                     python                      
 tzdata                                                                        2025b-4                                    deb                         
 udev                                                                          257.7-1                                    deb                         
 util-linux                                                                    2.41-5                                     deb                         
