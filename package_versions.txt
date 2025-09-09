@@ -539,7 +539,7 @@ jaraco-collections                                                            5.
 jaraco-context                                                                5.3.0                                      python                      
 jaraco-functools                                                              4.0.1                                      python                      
 jaraco-text                                                                   3.12.1                                     python                      
-joplin                                                                        3.4.10                                     deb                         
+joplin                                                                        3.4.12                                     deb                         
 jq                                                                            1.7.1                                      binary                      
 jq                                                                            1.7.1-6+deb13u1                            deb                         
 k8s.io/api                                                                    v0.26.2                                    go-module                   
