@@ -106,4 +106,5 @@ init_diagram: |
   "joplin:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "19.08.25:", desc: "Initial release."}
