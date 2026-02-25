@@ -597,7 +597,7 @@ iso-codes                                                                     4.
 jaraco-context                                                                6.1.0                                  python                      
 jaraco-functools                                                              4.4.0                                  python                      
 jaraco-text                                                                   4.0.0                                  python                      
-joplin                                                                        3.5.12                                 deb                         
+joplin                                                                        3.5.13                                 deb                         
 jq                                                                            1.7.1                                  binary                      
 jq                                                                            1.7.1-6+deb13u1                        deb                         
 k8s.io/api                                                                    v0.34.1                                go-module  (+1 duplicate)   
