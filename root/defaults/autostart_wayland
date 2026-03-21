@@ -1,1 +1,1 @@
-joplin --no-sandbox
+joplin --ozone-platform=wayland --no-sandbox
