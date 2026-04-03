@@ -1,0 +1,12 @@
+#! /bin/bash
+
+BIN=/usr/bin/joplin-real
+
+# Wayland check
+if ls -l /dev/dri/* > /dev/null 2>&1; then
+  if pgrep labwc > /dev/null 2>&1; then
+    WAYLAND="--ozone-platform=wayland"
+  fi
+fi
+
+${BIN} ${WAYLAND} --no-sandbox "$@"
