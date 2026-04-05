@@ -10,7 +10,9 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=Joplin
+ENV TITLE=Joplin \
+    NO_GAMEPAD=true \
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
@@ -28,6 +30,9 @@ RUN \
     "https://github.com/laurent22/joplin/releases/download/${JOPLIN_VERSION}/Joplin-$(echo ${JOPLIN_VERSION}| sed 's/^v//g').deb" && \
   apt-get install -y \
     /tmp/joplin.deb && \
+  mv \
+    /usr/bin/joplin \
+    /usr/bin/joplin-real && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
