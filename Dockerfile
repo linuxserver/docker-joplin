@@ -23,7 +23,7 @@ RUN \
   apt-get update && \
   if [ -z ${JOPLIN_VERSION+x} ]; then \
     JOPLIN_VERSION=$(curl -sX GET "https://api.github.com/repos/laurent22/joplin/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/joplin.deb -L \
